@@ -4,6 +4,7 @@ import NewTest from './NewTest'
 const Test = () => {
     const[count,setCount]=useState(0)
     const[value,setValue]=useState(1)
+    
 
     useEffect(()=>{
         alert('this is the effect page render')
